@@ -24,4 +24,5 @@
 ### Create files for powershell
 
 > mkdir .config\powershell
+>
 > vim .config\powershell\user_profiles.ps1
