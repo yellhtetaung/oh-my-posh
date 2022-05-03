@@ -2,5 +2,5 @@
 
 ## Install Powershell using winget
 
-``winget install Microsoft.PowerShell``
+`winget install Microsoft.PowerShell`
 
