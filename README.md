@@ -1,5 +1,5 @@
 # oh-my-posh
-## Installation Guide
+# Installation Guide
 
-# Install Powershell using winget
+## Install Powershell using winget
 <input>winget install Microsoft-PowerShell</input>
