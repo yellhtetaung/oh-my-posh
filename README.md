@@ -15,20 +15,19 @@ winget install Git.Git
 ```
 #
 
-## Install Scoop Package Manager
+### Install Scoop Package Manager
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 ```
 Invoke-WebRequest get.scoop.sh | Invoke-Expression
 ```
-#
-
 ### Install scoop packages
 
 ```
 scoop install curl sudo jq neovim gcc
 ```
+#
 ### Create files for powershell
 
 mkdir .config\powershell
