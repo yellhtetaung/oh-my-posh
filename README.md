@@ -28,7 +28,7 @@ Invoke-WebRequest get.scoop.sh | Invoke-Expression
 scoop install curl sudo jq neovim gcc
 ```
 #
-### Create files for powershell
+### Create config files for powershell
 
 mkdir .config\powershell
 
