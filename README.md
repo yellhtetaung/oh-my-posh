@@ -44,6 +44,8 @@ Set-Alias less 'C:\Progrma Files\Git\usr\bin\less.exe'
 #
 
 ### Invoke user_profile.ps1 Files
+mkdir Documents\PowerShell
+
 nvim $PROFILE.CurrentUserCurrentHost
 ```
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
@@ -70,8 +72,8 @@ Install-Module oh-my-posh -Scope CurrentUser -Force
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 ```
 #
-### Create Themes File
 ### Import Module and add themes files
+rename '.\theme.omp.json' 
 ```
 # Prompt
 Import-Module posh-git
@@ -82,3 +84,16 @@ $omp_config = Join-Path $PSScriptRoot '.\theme.omp.json'
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 ```
 #
+
+### Installation Terminal Icons
+```
+scoop bucket add extras
+```
+```
+scoop install terminal-icons
+```
+#
+### Import Module for Terminal Icons
+```
+Import-Module -Name Terminal-Icons
+```
