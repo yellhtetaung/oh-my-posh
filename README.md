@@ -63,3 +63,9 @@ Install-Module posh-git -Scope CurrentUser -Force
 ```
 Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
+#
+
+### Install oh-my-posh using scoop
+```
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+```
