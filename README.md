@@ -58,5 +58,8 @@ curl 'https:://api.inkdrop.app/' | jq .
 
 ### Install-Module posh-git and oh-my-posh 
 ```
-Install-Module posh-git -Scope 
+Install-Module posh-git -Scope CurrentUser -Force 
+```
+```
+Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
