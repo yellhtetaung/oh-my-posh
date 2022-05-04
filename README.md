@@ -73,6 +73,7 @@ scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/downl
 #
 ### Import Module and add themes files
 vim .config\powershell\user_profile.ps1
+
 rename '.\theme.omp.json' 
 ```
 # Prompt
