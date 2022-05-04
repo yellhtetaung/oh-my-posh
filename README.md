@@ -69,3 +69,16 @@ Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 ```
+#
+### Create Themes File
+### Import Module and add themes files
+```
+# Prompt
+Import-Module posh-git
+Import-Module oh-my-posh
+
+# Load prompt config
+$omp_config = Join-Path $PSScriptRoot '.\theme.omp.json'
+oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+```
+#
